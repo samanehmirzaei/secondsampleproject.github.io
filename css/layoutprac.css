@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* classes */
+
+.fontcolor {
+  color: #ef3b51;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  float: left;
+  background: url(../img/city1.jpg) no-repeat 0 0 / cover;
+  padding: 250px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.header h1 {
+  padding: 15px 0;
+}
+
+.header p {
+  padding-bottom: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  background-color: #ef3b51;
+  padding: 5px 15px;
+  font-size: 25px;
+}
+
+/* container */
+
+.container {
+  width: 80%;
+  padding-left: 10%;
+}
+
+/* main */
+
+.main {
+  width: 100%;
+  float: left;
+}
+
+.main .best-city-ever h2 {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  float: left;
+}
+
+.bestcity-items {
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+  margin-left: 5%;
+}
+
+.bestcity-item {
+  width: 33.333333%;
+  float: left;
+  text-align: center;
+}
+
+.bestcity-item p {
+  text-align: left;
+}
+
+/* services */
+
+.services {
+  width: 100%;
+  float: left;
+  background-color: #ef3b51;
+  padding: 15px 0;
+}
+
+.services-item {
+  float: left;
+  margin-left: 5%;
+  color: white;
+  margin-right: 10%;
+}
+
+.services-item a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 10px;
+}
+.last-service {
+  padding-top: 12px;
+}
+
+/* welcome */
+
+.welcome {
+  width: 100%;
+  float: left;
+  background-color: rgb(139, 139, 139);
+  padding: 40px 0;
+}
+
+.welcome-items {
+  float: left;
+}
+
+.welcome .left {
+  width: 50%;
+  background-color: white;
+  padding: 20px 0;
+  margin-left: 5%;
+  padding-left: 5%;
+  float: left;
+}
+
+.welcome .right {
+  width: 40%;
+  background-color: #ef3b51;
+  padding: 40px 0;
+  float: left;
+  margin-left: 5%;
+}
+
+.right div {
+  margin-right: 5px;
+  text-align: center;
+  margin-left: 15px;
+  float: left;
+  color: white;
+  padding-left: 30px;
+}
+
+.right div span {
+  display: block;
+}
+
+/* locations */
+
+.locations {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 25px;
+}
+
+/* locations */
+
+.location {
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+  margin-left: 35px;
+}
+
+.locations-item {
+  width: 32%;
+  float: left;
+  padding: 30px 0;
+  margin-bottom: 15px;
+}
+
+.margin-x {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.location h3 {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.location p {
+  margin-bottom: 15px;
+}
+
+.location-image {
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.location-image1 {
+  background: url(../img/city.jpg) no-repeat 0 0 / cover;
+}
+
+.location-image2 {
+  background: url(../img/city1.jpg) no-repeat 0 0 / cover;
+}
+
+.location-image3 {
+  background: url(../img/city2.jpg) no-repeat 0 0 / cover;
+}
+
+.location-image4 {
+  background: url(../img/city3.jpg) no-repeat 0 0 / cover;
+}
+
+.location-image5 {
+  background: url(../img/city4.jpg) no-repeat 0 0 / cover;
+}
+
+.location-image6 {
+  background: url(../img/city5.jpg) no-repeat 0 0 / cover;
+}
+
+/* footer */
+
+.footer a {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  background-color: #ef394e;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
