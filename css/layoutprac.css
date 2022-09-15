@@ -15,7 +15,9 @@
 .header {
   width: 100%;
   float: left;
-  background: url(../img/city1.jpg) no-repeat 0 0 / cover;
+  background: url("../img/city1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 250px;
   text-align: center;
   font-size: 30px;
